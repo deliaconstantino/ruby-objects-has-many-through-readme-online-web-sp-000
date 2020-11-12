@@ -20,7 +20,9 @@ class Waiter
   end
 
   def meals
+    binding.pry
     Meal.all.collect do |meal|
+      binding.pry
       meal.waiter == self
     end
   end
