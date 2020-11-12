@@ -21,7 +21,7 @@ class Waiter
 
   def meals
     binding.pry
-    Meal.all.collect do |meal|
+    Meal.all.select do |meal|
       binding.pry
       meal.waiter == self
     end
