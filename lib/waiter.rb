@@ -27,8 +27,8 @@ class Waiter
 
   def best_tipper
     self.meals.sort { |a, b| b.tip <=> a.tip }.first
-    end
-
   end
+
+
 
 end
