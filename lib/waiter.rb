@@ -25,4 +25,8 @@ class Waiter
     end
   end
 
+  def best_tipper
+    self.meals.sort
+  end
+
 end
