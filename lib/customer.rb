@@ -18,7 +18,8 @@ class Customer
   end
 
   def meals
-    
+    Meals.all.select |meal|
+    meal.
 
 
 end
