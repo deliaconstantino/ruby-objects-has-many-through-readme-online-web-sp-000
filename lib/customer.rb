@@ -23,5 +23,7 @@ class Customer
     end
   end
 
+  def waiters
+    self.meals.
 
 end
